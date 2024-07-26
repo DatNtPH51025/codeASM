@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/vieloiCamon"
+        android:title="Viết Lời Cảm ơn"
+        android:icon="@drawable/write"/>
+
+    <item android:id="@+id/quanlyVD"
+        android:title="Quản lý vận động"
+        android:icon="@drawable/run"/>
+
+    <item android:id="@+id/infor"
+        android:title="Thông tin cá nhân"
+        android:icon="@drawable/phone"/>
+
+    <item android:title="Khác">
+        <menu>
+            <item android:id="@+id/caiDat"
+                android:title="Cài Đặt"
+                android:icon="@drawable/settings"/>
+
+            <item android:id="@+id/thoat"
+                android:title="Đăng xuất"
+                android:icon="@drawable/power"/>
+        </menu>
+    </item>
+</menu>

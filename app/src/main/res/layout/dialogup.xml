@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom"
+    android:backgroundTint="#0A680D">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sửa lời biết ơn, hạnh phúc"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiêu đề"
+            android:textColor="@color/white"
+            android:layout_marginEnd="10sp"/>
+
+        <EditText
+            android:id="@+id/edtTDup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="@drawable/custom" />
+    </LinearLayout>
+
+    <TextView
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nội dung"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/edtNDup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:minLines="5"
+        android:gravity="center"
+        android:background="@drawable/custom" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnSaveup"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Lưu"
+            android:backgroundTint="#774949"
+            android:layout_marginEnd="20dp" />
+
+        <Button
+            android:id="@+id/btnDelup"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Huỷ"
+            android:backgroundTint="#8C298E" />
+    </LinearLayout>
+</LinearLayout>

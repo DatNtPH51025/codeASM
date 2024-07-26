@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="200sp"
+    android:background="@drawable/custom"
+    android:gravity="center"
+    android:layout_margin="10sp"
+    android:backgroundTint="#4E4BC6"
+    >
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/man"
+        android:background="@drawable/btn"
+        android:backgroundTint="#3F51B5"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:breakStrategy="high_quality"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:maxLines="2"
+        android:padding="8dp"
+        android:text="Wellcome"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+
+</LinearLayout>
